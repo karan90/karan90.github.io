@@ -2,10 +2,9 @@
 layout: default
 title: Karan's Projects
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="ideas">
-
-	  {% for idea in site.ideas %}
-	    <li><span>{{ idea.date | date_to_string }}</span> » <a href="{{ idea.url }}" title="{{ idea.title }}">{{ idea.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<h1>{{ page.title }}</h1>
+<ul class="ideas">
+	{% for idea in site.ideas %}
+	<li><span>{{ idea.date | date_to_string }}</span> » <a href="{{ idea.url }}" title="{{ idea.title }}">{{ idea.title }}</a></li>
+	{% endfor %}
+</ul>

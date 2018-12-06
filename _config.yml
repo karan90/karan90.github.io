@@ -1,3 +1,5 @@
 name: Karan Panjabi
 markdown: kramdown
 permalinks: blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap

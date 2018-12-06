@@ -1,5 +1,3 @@
 name: Karan Panjabi
 markdown: kramdown
-permalinks: 
-  projects: '/:year/:month/:day/:title'
-  blog: '/:year/:month/:day/:title'
+permalinks: blog/:year/:month/:day/:title
